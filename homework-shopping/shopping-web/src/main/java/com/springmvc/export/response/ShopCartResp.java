@@ -5,6 +5,7 @@ import com.springmvc.domain.po.ShopCart;
 import java.io.Serializable;
 
 /**
+ * 购物车响应实体
  * Created by qudi on 2018/3/5.
  */
 public class ShopCartResp extends ShopCart implements Serializable {

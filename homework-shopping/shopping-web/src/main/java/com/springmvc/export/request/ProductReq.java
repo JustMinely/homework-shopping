@@ -5,6 +5,7 @@ import com.springmvc.domain.po.Product;
 import java.io.Serializable;
 
 /**
+ * 商品请求实体
  * Created by qudi on 2018/2/28.
  */
 public class ProductReq extends Product implements Serializable {

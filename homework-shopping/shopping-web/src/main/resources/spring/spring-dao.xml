@@ -25,5 +25,8 @@
     <bean id="shopCartMapper" parent="abstractMapper">
         <property name="mapperInterface" value="com.springmvc.dao.ShopCartMapper"/>
     </bean>
+    <bean id="orderMapper" parent="abstractMapper">
+        <property name="mapperInterface" value="com.springmvc.dao.OrderMapper"/>
+    </bean>
 
 </beans>
